@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #f1faee !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(131,56,236,0.1);
+}
+.card-title {
+  color: #8338ec;
+}
+.card-text {
+  color: #22223b;
+}
+
+.table {
+  background: #f1faee;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table th {
+  background: #3a86ff;
+  color: #fff;
+}
+.table td {
+  color: #22223b;
+}
+.btn-primary, .btn-success, .btn-warning, .btn-info, .btn-dark {
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(58,134,255,0.15);
+}
+.btn-primary {
+  background: #3a86ff;
+}
+.btn-success {
+  background: #06d6a0;
+}
+.btn-warning {
+  background: #ffbe0b;
+}
+.btn-info {
+  background: #00b4d8;
+}
+.btn-dark {
+  background: #22223b;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #8338ec;
+  font-weight: bold;
+}
+
+a {
+  color: #3a86ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffbe0b;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
